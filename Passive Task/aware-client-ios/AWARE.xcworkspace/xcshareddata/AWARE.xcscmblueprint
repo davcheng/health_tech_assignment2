@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F79FC8E3B794227069DC5A84B0E602751238343E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F79FC8E3B794227069DC5A84B0E602751238343E" : 9223372036854775807,
+    "8149F477B353C58CF7097AAE377DADCECC5A17EE" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D5C01B99-8D42-4B3A-85C8-A0D6D2793701",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F79FC8E3B794227069DC5A84B0E602751238343E" : "aware-client-ios\/",
+    "8149F477B353C58CF7097AAE377DADCECC5A17EE" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AWARE",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AWARE.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/davcheng\/health_tech_assignment2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8149F477B353C58CF7097AAE377DADCECC5A17EE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tetujin\/aware-client-ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F79FC8E3B794227069DC5A84B0E602751238343E"
+    }
+  ]
+}

@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		241ADF751E710E0100792ED1 /* FitnessCheckTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241ADF741E710E0100792ED1 /* FitnessCheckTask.swift */; };
+		2422F3921E6CB9D90069078B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2422F3911E6CB9D90069078B /* AppDelegate.swift */; };
+		2422F3941E6CB9D90069078B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2422F3931E6CB9D90069078B /* ViewController.swift */; };
+		2422F3971E6CB9D90069078B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2422F3951E6CB9D90069078B /* Main.storyboard */; };
+		2422F3991E6CB9D90069078B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2422F3981E6CB9D90069078B /* Assets.xcassets */; };
+		2422F39C1E6CB9D90069078B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2422F39A1E6CB9D90069078B /* LaunchScreen.storyboard */; };
+		2422F3A71E6CB9D90069078B /* CamelotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2422F3A61E6CB9D90069078B /* CamelotTests.swift */; };
+		2422F3B21E6CB9D90069078B /* CamelotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2422F3B11E6CB9D90069078B /* CamelotUITests.swift */; };
+		2422F3D41E6DB2C20069078B /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2422F3D31E6DB2C20069078B /* SurveyTask.swift */; };
+		247C46221E6F62E300E66640 /* SpatialMemoryTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247C46211E6F62E300E66640 /* SpatialMemoryTask.swift */; };
+		BA72BB0F1E76F9D500D93E46 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6293021E76F93B0095F2E5 /* ResearchKit.framework */; };
+		BA72BB101E76F9D500D93E46 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA6293021E76F93B0095F2E5 /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D91A12EF1E76E6A9007BB24E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D91A12ED1E76E6A9007BB24E /* Model.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2422F3A31E6CB9D90069078B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2422F3861E6CB9D90069078B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2422F38D1E6CB9D90069078B;
+			remoteInfo = Camelot;
+		};
+		2422F3AE1E6CB9D90069078B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2422F3861E6CB9D90069078B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2422F38D1E6CB9D90069078B;
+			remoteInfo = Camelot;
+		};
+		BA6293011E76F93B0095F2E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6292FB1E76F93B0095F2E5 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B183A5951A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
+		BA6293031E76F93B0095F2E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6292FB1E76F93B0095F2E5 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86CC8E9A1AC09332001CCD89;
+			remoteInfo = ResearchKitTests;
+		};
+		BA72BB111E76F9D500D93E46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6292FB1E76F93B0095F2E5 /* ResearchKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B183A4731A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2422F3D21E6CBAA20069078B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BA72BB101E76F9D500D93E46 /* ResearchKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		241ADF741E710E0100792ED1 /* FitnessCheckTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessCheckTask.swift; sourceTree = "<group>"; };
+		2422F38E1E6CB9D90069078B /* Camelot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camelot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2422F3911E6CB9D90069078B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2422F3931E6CB9D90069078B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2422F3961E6CB9D90069078B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2422F3981E6CB9D90069078B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2422F39B1E6CB9D90069078B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2422F39D1E6CB9D90069078B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2422F3A21E6CB9D90069078B /* CamelotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamelotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2422F3A61E6CB9D90069078B /* CamelotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamelotTests.swift; sourceTree = "<group>"; };
+		2422F3A81E6CB9D90069078B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2422F3AD1E6CB9D90069078B /* CamelotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamelotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2422F3B11E6CB9D90069078B /* CamelotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamelotUITests.swift; sourceTree = "<group>"; };
+		2422F3B31E6CB9D90069078B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2422F3D31E6DB2C20069078B /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
+		247C46211E6F62E300E66640 /* SpatialMemoryTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpatialMemoryTask.swift; sourceTree = "<group>"; };
+		BA6292FB1E76F93B0095F2E5 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = ../../ResearchKit/ResearchKit.xcodeproj; sourceTree = "<group>"; };
+		D91A12EE1E76E6A9007BB24E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2422F38B1E6CB9D90069078B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA72BB0F1E76F9D500D93E46 /* ResearchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2422F39F1E6CB9D90069078B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2422F3AA1E6CB9D90069078B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2422F3851E6CB9D90069078B = {
+			isa = PBXGroup;
+			children = (
+				BA6292FB1E76F93B0095F2E5 /* ResearchKit.xcodeproj */,
+				2422F3901E6CB9D90069078B /* Camelot */,
+				2422F3A51E6CB9D90069078B /* CamelotTests */,
+				2422F3B01E6CB9D90069078B /* CamelotUITests */,
+				2422F38F1E6CB9D90069078B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2422F38F1E6CB9D90069078B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2422F38E1E6CB9D90069078B /* Camelot.app */,
+				2422F3A21E6CB9D90069078B /* CamelotTests.xctest */,
+				2422F3AD1E6CB9D90069078B /* CamelotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2422F3901E6CB9D90069078B /* Camelot */ = {
+			isa = PBXGroup;
+			children = (
+				2422F3911E6CB9D90069078B /* AppDelegate.swift */,
+				2422F3931E6CB9D90069078B /* ViewController.swift */,
+				2422F3D31E6DB2C20069078B /* SurveyTask.swift */,
+				247C46211E6F62E300E66640 /* SpatialMemoryTask.swift */,
+				241ADF741E710E0100792ED1 /* FitnessCheckTask.swift */,
+				2422F3951E6CB9D90069078B /* Main.storyboard */,
+				2422F3981E6CB9D90069078B /* Assets.xcassets */,
+				2422F39A1E6CB9D90069078B /* LaunchScreen.storyboard */,
+				2422F39D1E6CB9D90069078B /* Info.plist */,
+				D91A12ED1E76E6A9007BB24E /* Model.xcdatamodeld */,
+			);
+			path = Camelot;
+			sourceTree = "<group>";
+		};
+		2422F3A51E6CB9D90069078B /* CamelotTests */ = {
+			isa = PBXGroup;
+			children = (
+				2422F3A61E6CB9D90069078B /* CamelotTests.swift */,
+				2422F3A81E6CB9D90069078B /* Info.plist */,
+			);
+			path = CamelotTests;
+			sourceTree = "<group>";
+		};
+		2422F3B01E6CB9D90069078B /* CamelotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2422F3B11E6CB9D90069078B /* CamelotUITests.swift */,
+				2422F3B31E6CB9D90069078B /* Info.plist */,
+			);
+			path = CamelotUITests;
+			sourceTree = "<group>";
+		};
+		BA6292FC1E76F93B0095F2E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA6293021E76F93B0095F2E5 /* ResearchKit.framework */,
+				BA6293041E76F93B0095F2E5 /* ResearchKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2422F38D1E6CB9D90069078B /* Camelot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2422F3B61E6CB9D90069078B /* Build configuration list for PBXNativeTarget "Camelot" */;
+			buildPhases = (
+				2422F38A1E6CB9D90069078B /* Sources */,
+				2422F38B1E6CB9D90069078B /* Frameworks */,
+				2422F38C1E6CB9D90069078B /* Resources */,
+				2422F3D21E6CBAA20069078B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA72BB121E76F9D500D93E46 /* PBXTargetDependency */,
+			);
+			name = Camelot;
+			productName = Camelot;
+			productReference = 2422F38E1E6CB9D90069078B /* Camelot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2422F3A11E6CB9D90069078B /* CamelotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2422F3B91E6CB9D90069078B /* Build configuration list for PBXNativeTarget "CamelotTests" */;
+			buildPhases = (
+				2422F39E1E6CB9D90069078B /* Sources */,
+				2422F39F1E6CB9D90069078B /* Frameworks */,
+				2422F3A01E6CB9D90069078B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2422F3A41E6CB9D90069078B /* PBXTargetDependency */,
+			);
+			name = CamelotTests;
+			productName = CamelotTests;
+			productReference = 2422F3A21E6CB9D90069078B /* CamelotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2422F3AC1E6CB9D90069078B /* CamelotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2422F3BC1E6CB9D90069078B /* Build configuration list for PBXNativeTarget "CamelotUITests" */;
+			buildPhases = (
+				2422F3A91E6CB9D90069078B /* Sources */,
+				2422F3AA1E6CB9D90069078B /* Frameworks */,
+				2422F3AB1E6CB9D90069078B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2422F3AF1E6CB9D90069078B /* PBXTargetDependency */,
+			);
+			name = CamelotUITests;
+			productName = CamelotUITests;
+			productReference = 2422F3AD1E6CB9D90069078B /* CamelotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2422F3861E6CB9D90069078B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jill Sue";
+				TargetAttributes = {
+					2422F38D1E6CB9D90069078B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XXMDZRVA2T;
+						ProvisioningStyle = Automatic;
+					};
+					2422F3A11E6CB9D90069078B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2422F38D1E6CB9D90069078B;
+					};
+					2422F3AC1E6CB9D90069078B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2422F38D1E6CB9D90069078B;
+					};
+				};
+			};
+			buildConfigurationList = 2422F3891E6CB9D90069078B /* Build configuration list for PBXProject "Camelot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2422F3851E6CB9D90069078B;
+			productRefGroup = 2422F38F1E6CB9D90069078B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BA6292FC1E76F93B0095F2E5 /* Products */;
+					ProjectRef = BA6292FB1E76F93B0095F2E5 /* ResearchKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				2422F38D1E6CB9D90069078B /* Camelot */,
+				2422F3A11E6CB9D90069078B /* CamelotTests */,
+				2422F3AC1E6CB9D90069078B /* CamelotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BA6293021E76F93B0095F2E5 /* ResearchKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ResearchKit.framework;
+			remoteRef = BA6293011E76F93B0095F2E5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BA6293041E76F93B0095F2E5 /* ResearchKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ResearchKitTests.xctest;
+			remoteRef = BA6293031E76F93B0095F2E5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2422F38C1E6CB9D90069078B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2422F39C1E6CB9D90069078B /* LaunchScreen.storyboard in Resources */,
+				2422F3991E6CB9D90069078B /* Assets.xcassets in Resources */,
+				2422F3971E6CB9D90069078B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2422F3A01E6CB9D90069078B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2422F3AB1E6CB9D90069078B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2422F38A1E6CB9D90069078B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247C46221E6F62E300E66640 /* SpatialMemoryTask.swift in Sources */,
+				2422F3941E6CB9D90069078B /* ViewController.swift in Sources */,
+				241ADF751E710E0100792ED1 /* FitnessCheckTask.swift in Sources */,
+				2422F3921E6CB9D90069078B /* AppDelegate.swift in Sources */,
+				2422F3D41E6DB2C20069078B /* SurveyTask.swift in Sources */,
+				D91A12EF1E76E6A9007BB24E /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2422F39E1E6CB9D90069078B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2422F3A71E6CB9D90069078B /* CamelotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2422F3A91E6CB9D90069078B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2422F3B21E6CB9D90069078B /* CamelotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2422F3A41E6CB9D90069078B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2422F38D1E6CB9D90069078B /* Camelot */;
+			targetProxy = 2422F3A31E6CB9D90069078B /* PBXContainerItemProxy */;
+		};
+		2422F3AF1E6CB9D90069078B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2422F38D1E6CB9D90069078B /* Camelot */;
+			targetProxy = 2422F3AE1E6CB9D90069078B /* PBXContainerItemProxy */;
+		};
+		BA72BB121E76F9D500D93E46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ResearchKit;
+			targetProxy = BA72BB111E76F9D500D93E46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2422F3951E6CB9D90069078B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2422F3961E6CB9D90069078B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2422F39A1E6CB9D90069078B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2422F39B1E6CB9D90069078B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2422F3B41E6CB9D90069078B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2422F3B51E6CB9D90069078B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2422F3B71E6CB9D90069078B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XXMDZRVA2T;
+				INFOPLIST_FILE = Camelot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jill.Camelot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2422F3B81E6CB9D90069078B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XXMDZRVA2T;
+				INFOPLIST_FILE = Camelot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jill.Camelot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2422F3BA1E6CB9D90069078B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CamelotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jill.CamelotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Camelot.app/Camelot";
+			};
+			name = Debug;
+		};
+		2422F3BB1E6CB9D90069078B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CamelotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jill.CamelotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Camelot.app/Camelot";
+			};
+			name = Release;
+		};
+		2422F3BD1E6CB9D90069078B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CamelotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jill.CamelotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Camelot;
+			};
+			name = Debug;
+		};
+		2422F3BE1E6CB9D90069078B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CamelotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jill.CamelotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Camelot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2422F3891E6CB9D90069078B /* Build configuration list for PBXProject "Camelot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2422F3B41E6CB9D90069078B /* Debug */,
+				2422F3B51E6CB9D90069078B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2422F3B61E6CB9D90069078B /* Build configuration list for PBXNativeTarget "Camelot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2422F3B71E6CB9D90069078B /* Debug */,
+				2422F3B81E6CB9D90069078B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2422F3B91E6CB9D90069078B /* Build configuration list for PBXNativeTarget "CamelotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2422F3BA1E6CB9D90069078B /* Debug */,
+				2422F3BB1E6CB9D90069078B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2422F3BC1E6CB9D90069078B /* Build configuration list for PBXNativeTarget "CamelotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2422F3BD1E6CB9D90069078B /* Debug */,
+				2422F3BE1E6CB9D90069078B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D91A12ED1E76E6A9007BB24E /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D91A12EE1E76E6A9007BB24E /* Model.xcdatamodel */,
+			);
+			currentVersion = D91A12EE1E76E6A9007BB24E /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2422F3861E6CB9D90069078B /* Project object */;
+}
