@@ -7,7 +7,6 @@
 //
 
 #import "EntityChemoBrain.h"
-#import "EntityScreen.h"
 
 @implementation EntityChemoBrain
 

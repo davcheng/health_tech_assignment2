@@ -6,21 +6,19 @@
 //  Copyright © 2017 David and Jill. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
 #import "EntityChemoBrainDataProperties.h"
 
 @implementation EntityChemoBrain (CoreDataProperties)
 
 //activity type for exercise 
-@dynamic activities;
-@dynamic activity_name;
-@dynamic activity_type;
-@dynamic confidence;
-@dynamic device_id;
-@dynamic timestamp;
+//@dynamic activities;
+//@dynamic activity_name;
+//@dynamic activity_type;
+//@dynamic confidence;
+//@dynamic device_id;
+//@dynamic timestamp;
 
 //screen status for sleep
-@dynamic screen_status;
+//@dynamic screen_status;
 
 @end

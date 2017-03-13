@@ -10,12 +10,6 @@
 #import "AWARESensor.h"
 #import "AWAREKeys.h"
 #import <CoreMotion/CoreMotion.h>
-#import "AmbientNoise.h"
-#import "Screen.h"
-#import "notify.h"
-#import "AppDelegate.h"
-#import "EntityScreen.h"
-
 
 
 typedef enum: NSInteger {

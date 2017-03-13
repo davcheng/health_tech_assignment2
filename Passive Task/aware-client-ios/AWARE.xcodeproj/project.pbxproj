@@ -51,8 +51,6 @@
 		1623CE771BFD1B2C00EFAD72 /* AWARE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1623CE751BFD1B2C00EFAD72 /* AWARE.xcdatamodeld */; };
 		1623CE791BFD1B2C00EFAD72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1623CE781BFD1B2C00EFAD72 /* Assets.xcassets */; };
 		1623CE7C1BFD1B2C00EFAD72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1623CE7A1BFD1B2C00EFAD72 /* LaunchScreen.storyboard */; };
-		1623CE871BFD1B2C00EFAD72 /* AWARETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1623CE861BFD1B2C00EFAD72 /* AWARETests.m */; };
-		1623CE921BFD1B2C00EFAD72 /* AWAREUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1623CE911BFD1B2C00EFAD72 /* AWAREUITests.m */; };
 		1623CEB11BFD40FB00EFAD72 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1623CEB01BFD40FB00EFAD72 /* AVFoundation.framework */; };
 		1623CEB91BFE319100EFAD72 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1623CEB81BFE319100EFAD72 /* CoreMotion.framework */; };
 		162B7DDC1C4EF792006972B5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 162B7DDB1C4EF792006972B5 /* CoreTelephony.framework */; };
@@ -415,11 +413,7 @@
 		1623CE7B1BFD1B2C00EFAD72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1623CE7D1BFD1B2C00EFAD72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1623CE821BFD1B2C00EFAD72 /* AWARETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWARETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1623CE861BFD1B2C00EFAD72 /* AWARETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWARETests.m; sourceTree = "<group>"; };
-		1623CE881BFD1B2C00EFAD72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1623CE8D1BFD1B2C00EFAD72 /* AWAREUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWAREUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1623CE911BFD1B2C00EFAD72 /* AWAREUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWAREUITests.m; sourceTree = "<group>"; };
-		1623CE931BFD1B2C00EFAD72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1623CEB01BFD40FB00EFAD72 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1623CEB81BFE319100EFAD72 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		1623FFDC1C5ADB6E00F3E3E4 /* libSystem.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.tbd; path = usr/lib/libSystem.tbd; sourceTree = SDKROOT; };
@@ -957,8 +951,6 @@
 			isa = PBXGroup;
 			children = (
 				1623CE681BFD1B2C00EFAD72 /* AWARE */,
-				1623CE851BFD1B2C00EFAD72 /* AWARETests */,
-				1623CE901BFD1B2C00EFAD72 /* AWAREUITests */,
 				1623CE671BFD1B2C00EFAD72 /* Products */,
 				2A3CA9F5620967BACB187EB7 /* Frameworks */,
 				D9FFFA3D323B573A8AA96D3B /* Pods */,
@@ -1003,24 +995,6 @@
 				16FD37541CF0B1DE00EEB416 /* Settings.bundle */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1623CE851BFD1B2C00EFAD72 /* AWARETests */ = {
-			isa = PBXGroup;
-			children = (
-				1623CE861BFD1B2C00EFAD72 /* AWARETests.m */,
-				1623CE881BFD1B2C00EFAD72 /* Info.plist */,
-			);
-			path = AWARETests;
-			sourceTree = "<group>";
-		};
-		1623CE901BFD1B2C00EFAD72 /* AWAREUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1623CE911BFD1B2C00EFAD72 /* AWAREUITests.m */,
-				1623CE931BFD1B2C00EFAD72 /* Info.plist */,
-			);
-			path = AWAREUITests;
 			sourceTree = "<group>";
 		};
 		163A824B1E2B3AE300987A1D /* Fitbit */ = {
@@ -2266,6 +2240,7 @@
 						CreatedOnToolsVersion = 7.1;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
+						TestTargetID = 1623CE651BFD1B2C00EFAD72;
 					};
 				};
 			};
@@ -2724,7 +2699,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1623CE871BFD1B2C00EFAD72 /* AWARETests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2732,7 +2706,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1623CE921BFD1B2C00EFAD72 /* AWAREUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2937,7 +2910,7 @@
 				DEVELOPMENT_TEAM = XXMDZRVA2T;
 				INFOPLIST_FILE = AWARETests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.keio.sfc.ht.tetujin.AWARETests;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.keio.sfc.ht.tetujin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWARE.app/AWARE";
@@ -2951,7 +2924,7 @@
 				DEVELOPMENT_TEAM = XXMDZRVA2T;
 				INFOPLIST_FILE = AWARETests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.keio.sfc.ht.tetujin.AWARETests;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.keio.sfc.ht.tetujin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWARE.app/AWARE";
@@ -2970,6 +2943,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AWARE;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -2986,6 +2960,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AWARE;
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;

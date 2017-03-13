@@ -12,12 +12,7 @@
 #import "ChemoBrainSensor.h"
 #import "AppDelegate.h"
 #import "EntityChemoBrain.h"
-#import "IOSActivityRecognition.h"
-#import "AmbientNoise.h"
-#import "Screen.h"
-#import "notify.h"
-#import "AppDelegate.h"
-#import "EntityScreen.h"
+//#import "IOSActivityRecognition.h"
 
 //#import "AWAREHealthKitWorkout.h"
 
@@ -28,12 +23,12 @@
     CMMotionActivityManager *motionActivityManager;
     NSString * KEY_TIMESTAMP_OF_LAST_UPDATE;
     double defaultInterval;
-    IOSActivityRecognitionMode sensingMode;
+//    IOSActivityRecognitionMode sensingMode;
     CMMotionActivityConfidence confidenceFilter;
     
     
     
-    /* stationary,walking,running,automotive,cycling,unknown */
+//     stationary,walking,running,automotive,cycling,unknown 
     NSString * ACTIVITY_NAME_STATIONARY;
     NSString * ACTIVITY_NAME_WALKING;
     NSString * ACTIVITY_NAME_RUNNING;
@@ -82,7 +77,7 @@ dbType:(AwareDBType)dbType {
     // Fire -getData: method per 60 sec
     timer = [NSTimer scheduledTimerWithTimeInterval:60.0f
                                              target:self
-                                           selector:@selector(getDave:)
+                                           selector:@selector(getData:)
                                            userInfo:nil
                                             repeats:YES];
     
@@ -109,7 +104,7 @@ dbType:(AwareDBType)dbType {
     // Get values (unixtime and device_id are required for all AWARE sensor)
     NSNumber * unixtime  = [AWAREUtils getUnixTimestamp:[NSDate new]];
     NSString * device_id = [self getDeviceId];
-    NSString * value     = @"value";
+//    NSString * value     = @"value";
     
     // Set the values to a dictionary object
     // (NOTE: Please insert the values with the same format on the created table)
